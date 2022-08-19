@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(37, 43, 48);
+}
+
+header{
+    display: flex;
+    margin-bottom: 50px;
+    color: white;
+}
+
+header img {
+    width: 70px;
+    margin: 10px 40px 0 10px;
+}
+
+header h1{
+    margin-right: 30vw;
+    margin-top: 40px;
+}
+
+header ul li{
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+    top: 40px;
+}
+
+
+main>h2{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 80px;
+    font-size: 2.5rem;
+}
+
+#nacionales, #internacionales{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+#nacionales article, #internacionales article{
+    width: 350px;
+    margin: 0 39px;
+} 
+
+img{
+    width: 300px;
+}
+
+footer{
+    color: white;
+}
+    
+footer ul li{
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+}
